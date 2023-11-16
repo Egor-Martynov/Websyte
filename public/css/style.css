@@ -1,0 +1,59 @@
+
+.button1{
+  background: url(../images/OpenPanelFirst.png) 50% no-repeat;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 20px;
+  box-shadow: 0 6px 12px 10px rgba(255, 255, 255, 0.466);
+}
+.button2{
+  background: url(../images/OpenPanelSecond.png) 50% no-repeat;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 320px;
+}
+.button1,
+.button2{
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  opacity: 1;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  box-shadow: 0 6px 12px 10px rgba(255, 255, 255, 0.466);
+}
+
+.button3 {
+  position: absolute;
+  margin-top: 895px;
+  margin-left: 1057px;
+  width: 145px;
+  height: 184px;
+  opacity: 0.5;
+  color: rgb(122, 122, 122);
+  cursor: pointer;
+}
+
+.button1.on,
+.button2.on {
+  box-shadow: 0 6px 32px 10px rgba(255, 255, 255, 0);
+}
+
+.button1.on {
+background: url(../images/ClosePanelFirst.png) 50% no-repeat;
+}
+.button2.on {
+background: url(../images/ClosePanelSecond.png) 50% no-repeat;
+}
+
+
+.index_1 {
+  z-index: 1;
+  width: 1920px;
+  height: 1080px;
+  box-shadow: 0 0 10px #000;
+  background: rgb(109, 118, 151) url(../images/container.png) no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+}
+
